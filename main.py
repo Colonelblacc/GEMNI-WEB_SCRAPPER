@@ -1,6 +1,6 @@
 import streamlit as st 
 from scrape import (scrape_website,split_dom_content,clean_body_content,extract_body_content)
-from parse import parse_with_ollama
+from parse import parse_with_ollama 
 
 st.title("AI WEB SCRAPER")
 url= st.text_input("ENTER THE URL")
