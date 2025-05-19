@@ -23,7 +23,7 @@ llm = ChatGoogleGenerativeAI(
     temperature=0.7
 )
 
-def parse_with_gemini(dom_chunks,parse_description):
+def parse_with_ollama(dom_chunks,parse_description):
     prompt= ChatPromptTemplate.from_template(template)
     chain=prompt|llm
 
