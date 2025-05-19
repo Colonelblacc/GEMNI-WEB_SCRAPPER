@@ -21,7 +21,7 @@ if st.button("Scrape Site "):
 
 
 if "dom_content" in st.session_state:
-    parse_description=st.text_area("Describe what you want to parse")
+    parse_description=st.text_area("Describe what you want to parse (like extract the titles)")
 
 
     if st.button("Parse Contet"):
