@@ -19,7 +19,7 @@ template = (
 )
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
-    google_api_key="AIzaSyCGJrbm-QVYnCQIzJ96uCMX_-VWmTaiV7c",
+    google_api_key="ENTER YOUR API KEY HERE",
     temperature=0.7
 )
 
