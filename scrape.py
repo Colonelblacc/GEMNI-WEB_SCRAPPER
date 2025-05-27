@@ -7,7 +7,7 @@ from selenium.webdriver.chromium.remote_connection import ChromiumRemoteConnecti
 from selenium.webdriver.common.by import By  
 
 # Enter your credentials - the zone name and password  
-AUTH = 'brd-customer-hl_3b7724c4-zone-ai_scraper:b6ouzofu4h0v'  
+AUTH = "{ENTER YOUR GEMNI API KEY}"  
 
 SBR_WEBDRIVER = f'https://{AUTH}@brd.superproxy.io:9515'
 
